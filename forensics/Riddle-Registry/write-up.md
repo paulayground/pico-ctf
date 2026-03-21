@@ -11,10 +11,14 @@ Find the PDF file here Hidden Confidential Document and uncover the flag within 
 
 confidential.pdf 파일이 주어지며 내용을 확인할 시, 일부 글자가 검은색 박스로 마스킹되어서 보이는 것을 알 수 있다. 일단 마스킹 부분을 확인해보면 드래그해서 다른 편집창에서 확인해보면 아래와 같이 별 의미 없는 문자임을 알 수 있고 flag 단서는 여기 없다는 것을 알 수 있다.
 
-```
+```pdf confidential.pdf
+# 1번째 마스킹
 Aenean lacinia bibendum nulla sed consectetur
+# 2번째 마스킹
 Lorem ipsum dolor sit amet
+# 3번째 마스킹
 The author have done a great and good job
+# 4번째 마스킹
 No flag here. Nice try though!
 ```
 
